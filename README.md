@@ -15,6 +15,10 @@ spoon.SocksProxy:config("user@somehost", 12345)
 
 (Adding a host and port that is useful to you)
 
-Reload your Hammerspoon Config and you should be good to go.
+Reload your Hammerspoon Config.
+
 There will be a menubar icon that you can click to toggle the proxy on and off.
+
 By default the proxy is off.
+
+Thats it!
