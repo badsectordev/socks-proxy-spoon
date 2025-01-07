@@ -137,7 +137,7 @@ function M:checkConnection()
   task:start()
 end
 
-function M:start(sshHost, localPort)
+function M:config(sshHost, localPort)
   self.logger.i("SocksProxy spoon starting")
   if not sshHost then
     self.logger.e("SSH host is required")
